@@ -91,7 +91,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
         if section == self.products.count / 2 - 1 {
-            return CGSizeMake(self.view.frame.size.width, 130)
+            return CGSizeMake(self.view.frame.size.width, 64)
         }
         else {
             return CGSizeMake(0, 0)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="TdO-58-xiN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="TdO-58-xiN">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -84,7 +84,7 @@
         <scene sceneID="gh8-zO-nXg">
             <objects>
                 <collectionViewController storyboardIdentifier="CollectionViewController" id="2Ez-6X-NpA" customClass="CollectionViewController" customModule="iOSAppTemplate" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="nGw-el-LPU">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" tag="999" contentMode="scaleToFill" dataMode="prototypes" id="nGw-el-LPU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94901960780000005" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -146,7 +146,7 @@
                         <viewControllerLayoutGuide type="top" id="yoa-Ju-dRy"/>
                         <viewControllerLayoutGuide type="bottom" id="ohR-89-CEI"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="68E-om-kvg">
+                    <view key="view" tag="999" contentMode="scaleToFill" id="68E-om-kvg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
