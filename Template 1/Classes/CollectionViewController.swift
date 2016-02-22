@@ -52,13 +52,13 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CollectionViewCell
         
-        cell.title.text = self.products[(indexPath.section+indexPath.section) + indexPath.row]["title"]
-        cell.price.text = self.products[(indexPath.section+indexPath.section) + indexPath.row]["price"]
-        let imgName = self.products[(indexPath.section+indexPath.section) + indexPath.row]["image"]
+        let product     = self.products[(indexPath.section+indexPath.section) + indexPath.row]
+        cell.title.text = product["title"]
+        cell.price.text = product["price"]
+        let imgName     = product["image"]
         
         cell.imgView.image = UIImage(named: imgName!)
         cell.imgView.clipsToBounds = true
-        println("\(indexPath.section), \(indexPath.row)")
         
         lastIndex += 1
         
@@ -75,7 +75,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     }
     
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        var alert = UIAlertController(title: "StoreTemplate", message: "not yet ;(", preferredStyle: UIAlertControllerStyle.Alert)
+        let alert = UIAlertController(title: "StoreTemplate", message: "not yet ;(", preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "ok!", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alert, animated: true, completion: nil)
 

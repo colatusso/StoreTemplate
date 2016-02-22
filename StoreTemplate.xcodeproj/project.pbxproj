@@ -231,6 +231,8 @@
 		532ECDE81850AD1A005421BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Rafael Colatusso";
 				TargetAttributes = {
@@ -420,7 +422,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Template 1/iOSAppTemplate-Prefix.pch";
 				INFOPLIST_FILE = "Template 1/Template 1-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iOSAppTemplate;
 				PROVISIONING_PROFILE = "d9ff9468-d1ef-43fb-93d1-b1306388dc8c";
@@ -444,7 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Template 1/iOSAppTemplate-Prefix.pch";
 				INFOPLIST_FILE = "Template 1/Template 1-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iOSAppTemplate;
 				PROVISIONING_PROFILE = "d9ff9468-d1ef-43fb-93d1-b1306388dc8c";
